@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+       <h1>Assignment made by Rouki Ryuo.</h1>
+    </header><br>                   
+    
+    <form>
+        <div>
+            <p><label>LRN:</label><br><br>
+            <input type="text" name="LRN" placeholder="LRN" id="LRN" required><br></p>
+
+            <p><label>First Name:</label><br><br>
+            <input type="text" name="FirstName" placeholder="First Name" id="fname" required><br></p>
+
+            <p><label>Middle Name:</label><br><br>
+            <input type="text" name="MiddleName" placeholder="Middle Name" id="mname"><br></p>
+
+            <p><label>Last Name:</label><br><br>
+            <input type="text" name="LastName" placeholder="Last Name" id="lname" required><br></p>
+
+            <p><label>Gender:</label><br><br>
+            <input type="radio" id="gender" name="gender" value="male"><label for="male">Male</label><br>
+        <input type="radio" id="gender" name="gender" value="female"><label for="female">Female</label><br>
+        <input type="radio" id="gender" name="gender" value="lgbtq"><label for="lgbtq">LGBTQ+</label></p>
+
+            <p>
+            <label>Address:</label><br><br>
+            <input type="text" id="address" placeholder="Address" required>
+            </p>
+
+            <p>
+                <label for="phone">Phone Number:</label><br><br>
+                <input type="tel" id="phone" name="phone" placeholder="0000-000-0000" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" required><br><br>
+            </p>
+
+            <p>
+                <label for="programs">Programs:</label>
+                    <select id="programs" name="programs">
+                        <option value="program1">JHS</option>
+                        <option value="program2">SHS</option>
+                    </select>
+            </p>
+
+            <p>
+                <label for="yrlvl">Year Level:</label>
+                    <select id="yrlvl" name="yearlevel">
+                        <option value="year">2023-2024</option>
+                        <option value="year">2024-2025</option>
+                    </select>
+            </p>
+            
+            <p>
+                <label for="track">Track:</label>
+                    <select id="track" name="track">
+                        <option value="Acad">Academic</option>
+                        <option value="TVL">Technical-Vocational-Livelihood</option>
+                        <option value="SnA">Sports and Arts</option>
+                    </select>
+            </p>
+
+            <p>
+                <label for="strand">Strand:</label>
+                    <select id="strand" name="strand">
+                        <option value="STEM">STEM</option>
+                        <option value="ABM">ABM</option>
+                        <option value="HUMSS">HUMSS</option>
+                        <option value="ICT">ICT</option>
+                        <option value="GAS">GAS</option>
+                        <opiton value="EIM">EIM</opiton>
+                    </select>
+            </p>
+
+            <p>
+                <label for="section">Section:</label>
+                        <select id="section" name="section">
+                                <option value="moonstone">Moonstone</option>
+                                <option value="sunstone">Sunstone</option>
+                                <option value="bloodstone">Bloodstone</option>
+                        </select>
+            </p>
+
+            <input type="submit" id="submit" url="#">
+
+        </div>
+    </form>
+
+
+</body>
+</html>
